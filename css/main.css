@@ -175,7 +175,7 @@ table td.r, table th.r {
 }
 
 tbody tr:nth-child(even) {
-  background-color: #f5f5f5;
+  background-color: #8B63E3; /*era #F5F5F5*/
 }
 
 tbody tr {
