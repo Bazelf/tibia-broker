@@ -144,7 +144,7 @@ table td, table th {
 }
 table thead tr {
   height: 60px;
-  background: #828282
+  background: #828282;
 }
 table tbody tr {
   height: 50px;
@@ -175,7 +175,7 @@ table td.r, table th.r {
 }
 
 tbody tr:nth-child(even) {
-  background-color: #F5F5F5
+  background-color: #F5F5F5;
 }
 
 tbody tr {
