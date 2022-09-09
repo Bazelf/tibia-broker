@@ -147,8 +147,9 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-
-
+.left {
+  float: right;
+}
 
 
 
