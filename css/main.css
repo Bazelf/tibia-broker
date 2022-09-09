@@ -89,7 +89,7 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [Button]*/
 .switch {
-  position: relative;
+  position: left;
   display: inline-block;
   width: 56px;
   height: 30px;
@@ -147,7 +147,6 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-
 
 
 
