@@ -27,7 +27,7 @@ table thead tr {
 table tr:nth-child(even) {
   background-color: #f5f5f5;
 }
-thead td:hover {
+thead tr:hover {
   color: #555555;
   background-color: #f5f5f5;
   cursor: pointer;
