@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+table {
+border-collapse: collapse;
+}
+</style>
 	<head>
 		<title>Script Test</title>
 		<meta charset="UTF-8">
-	
+		<link rel="stylesheet" type="text/css" href="main.css">
 		<script src="https://unpkg.com/read-excel-file@4.x/bundle/read-excel-file.min.js"></script>
 	</head>
 	<body>
@@ -36,6 +41,7 @@
 				let row = thead.insertRow();
 				for(let key of data) {
 					let th = document.createElement('th');
+					th.style.cssText = "background-color: #828282;";
 					let text = document.createTextNode(key);
 					th.appendChild(text);
 					row.appendChild(th);
@@ -52,3 +58,7 @@
 		</script>
 	</body>
 </html> 
+<!--tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+  newRoll.style.cssText = "thead tr:nth-child(even) {background-color: #f5f5f5;}";
+  -->
