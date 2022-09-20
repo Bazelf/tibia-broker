@@ -1,208 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Tibia Broker</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
 
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
-</head>
-
-<body>
-<div style="height: 50px; background: #152420;">
-	<header>		
-		<nav>
-			<a><img src="Unholy_Bone.gif" alt="Unholy_Bone"></a>
-			<a href="index.html"><img src="home.gif" alt="KayakDoorCountry.net/home" width="90" height="35"></a> &nbsp;
-			<a href="phraseElementsExample.html"><img src="tours.gif" alt="KayakDoorCountry.net/tours" width="90" height="35"></a> &nbsp;
-			<a href="specialCharacters.html"><img src="reservations.gif" alt="KayakDoorCountry.net/reservations" width="190" height="35"></a> &nbsp;
-			<a href="structureExample.html"><img src="contact.gif" alt="KayakDoorCountry.net/contact" width="130" height="35"></a> &nbsp;
-		<div></div>
-
-
-	</header>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+	<head>
+		<title>Second Test</title>
+		<meta charset="UTF-8">
+		<!-- <meta http-equiv="refresh" content="10"> -->
+		<link rel="stylesheet" type="text/css" href="css.css"> 
+		<!-- <script src="https://unpkg.com/read-excel-file@4.x/bundle/read-excel-file.min.js"></script> -->
+		<script type="text/javascript" src="table-js.js"></script>
+		<!-- favicon -->
+		<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+	</head>
+	<body>
+		<header style="height: 50px; background: #152420;">		
+			<nav>
+				<a><img src="Unholy_Bone.gif" alt="Unholy_Bone"></a>
+				<a href="index.html"><img src="home.gif" alt="KayakDoorCountry.net/home" width="90" height="35"></a> &nbsp;
+				<a href="phraseElementsExample.html"><img src="tours.gif" alt="KayakDoorCountry.net/tours" width="90" height="35"></a> &nbsp;
+				<a href="specialCharacters.html"><img src="reservations.gif" alt="KayakDoorCountry.net/reservations" width="190" height="35"></a> &nbsp;
+				<a href="structureExample.html"><img src="contact.gif" alt="KayakDoorCountry.net/contact" width="130" height="35"></a> &nbsp;
+				
+			</nav>
+		
 
 
-	<div class="limiter">
-		<div class="container-table100">
-			<div class="wrap-table100">
-				<div class="table100">
-					<table>
+		</header>
+	
+		<div class="limiter" >
+			<div class="row" id="container-table100">
+				<div class="col">
+					
+				<table>
 						<thead>
-							<tr class="table100-head">
+							<tr class="table-head">
 								<th class="column1">Server</th>
-								<th class="column2">Chart</th>
-								<th class="column3">Sale</th>
+								<!--<th class="column2">Chart</th>-->
+				 				<th class="column3">Sale</th>
 								<th class="column4">Buy</th>
 								<th class="column5">Today</th>
 								<th class="column6">1 Week</th>
 								<th class="column6">1 Month</th>
 							</tr>
 						</thead>
-						<tbody>
-								<tr>
-									<td class="column1">Ardera</td>
-									<td class="column2">
-										<div>
-											<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
-											<script type="text/javascript" src="graph.js"></script>
-										</div>
-									</td>
-									<td class="column3">6800</td>
-									<td class="column4">5400</td>
-									<td class="column5">&#8593 0.1%</td>
-									<td class="column6">&#8595 0.3%</td>
-									<td class="column6">&#8595 2.9%</td>
-								</tr>
-								<tr>
-									<td class="column1">2017-09-29 01:22</td>
-									<td class="column2">
-										<div>
-											<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
-											<script type="text/javascript" src="graph.js"></script>
-										</div>
-									</td>
-									<td class="column3">33000</td>
-									<td class="column4">$999.00</td>
-									<td class="column5">1</td>
-									<td class="column6">$999.00</td>
-									<td class="column6">$999.00</td>
-								</tr>
-								<tr>
-									<td class="column1">2017-09-29 01:22</td>
-									<td class="column2">200398</td>
-									<td class="column3">33000</td>
-									<td class="column4">$999.00</td>
-									<td class="column5">1</td>
-									<td class="column6">$999.00</td>
-									<td class="column6">$999.00</td>
-								</tr>
-								<tr>
-									<td class="column1">2017-09-29 01:22</td>
-									<td class="column2">200398</td>
-									<td class="column3">33000</td>
-									<td class="column4">$999.00</td>
-									<td class="column5">1</td>
-									<td class="column6">$999.00</td>
-									<td class="column6">$999.00</td>
-								</tr>
-								<tr>
-									<td class="column1">2017-09-29 01:22</td>
-									<td class="column2">200398</td>
-									<td class="column3">33000</td>
-									<td class="column4">$999.00</td>
-									<td class="column5">1</td>
-									<td class="column6">$999.00</td>
-									<td class="column6">$999.00</td>
-								</tr>
-								<tr>
-									<td class="column1">2017-09-29 01:22</td>
-									<td class="column2">200398</td>
-									<td class="column3">33000</td>
-									<td class="column4">$999.00</td>
-									<td class="column5">1</td>
-									<td class="column6">$999.00</td>
-									<td class="column6">$999.00</td>
-								</tr>
-								<tr>
-									<td class="column1">2017-09-29 01:22</td>
-									<td class="column2">200398</td>
-									<td class="column3">33000</td>
-									<td class="column4">$999.00</td>
-									<td class="column5">1</td>
-									<td class="column6">$999.00</td>
-									<td class="column6">$999.00</td>
-								</tr>
-								<tr>
-									<td class="column1">2017-09-29 01:22</td>
-									<td class="column2">200398</td>
-									<td class="column3">33000</td>
-									<td class="column4">$999.00</td>
-									<td class="column5">1</td>
-									<td class="column6">$999.00</td>
-									<td class="column6">$999.00</td>
-								</tr>
-								<tr>
-									<td class="column1">2017-09-29 01:22</td>
-									<td class="column2">200398</td>
-									<td class="column3">33000</td>
-									<td class="column4">$999.00</td>
-									<td class="column5">1</td>
-									<td class="column6">$999.00</td>
-									<td class="column6">$999.00</td>
-								</tr>
-								<tr>
-									<td class="column1">2017-09-29 01:22</td>
-									<td class="column2">200398</td>
-									<td class="column3">33000</td>
-									<td class="column4">$999.00</td>
-									<td class="column5">1</td>
-									<td class="column6">$999.00</td>
-									<td class="column6">$999.00</td>
-								</tr>
-								<tr>
-									<td class="column1">2017-09-29 01:22</td>
-									<td class="column2">200398</td>
-									<td class="column3">33000</td>
-									<td class="column4">$999.00</td>
-									<td class="column5">1</td>
-									<td class="column6">$999.00</td>
-									<td class="column6">$999.00</td>
-								</tr>
-								<tr>
-									<td class="column1">2017-09-29 01:22</td>
-									<td class="column2">200398</td>
-									<td class="column3">33000</td>
-									<td class="column4">$999.00</td>
-									<td class="column5">1</td>
-									<td class="column6">$999.00</td>
-									<td class="column6">$999.00</td>
-								</tr>
-								<tr>
-									<td class="column1">2017-09-29 01:22</td>
-									<td class="column2">200398</td>
-									<td class="column3">33000</td>
-									<td class="column4">$999.00</td>
-									<td class="column5">1</td>
-									<td class="column6">$999.00</td>
-									<td class="column6">$999.00</td>
-								</tr>
-								<tr>
-									<td class="column1">2017-09-29 01:22</td>
-									<td class="column2">200398</td>
-									<td class="column3">33000</td>
-									<td class="column4">$999.00</td>
-									<td class="column5">1</td>
-									<td class="column6">$999.00</td>
-									<td class="column6">$999.00</td>
-								</tr>
-								
-								
+						<tbody id="table-body">
+						
+
+							
+							
 						</tbody>
-					</table>
+				</table>
+				
 				</div>
-			</div>
-		</div>
-	</div>
+			</div>        <!-- CLOSE ROW -->
+			
+		</div>           <!-- CLOSE CONTAINER-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	</body>
+</html> 
 
-
-	
-
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
-
-</body>
-</html>
+<!-- Scrap code
+						
+						<script>
+							let num = document.getElementById("fart").innerHTML = n;
+							let n = num.toFixed(2);
+						</script>	
+						
+						
+						-->
